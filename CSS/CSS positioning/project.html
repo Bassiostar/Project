@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div {
+            right: 30px;
+            border: 3px;
+        }
+        div.absolute{
+            position: absolute;
+            left: 50px;
+            border: 3px solid blue;
+        }
+        div.relative{
+            position: relative;
+            left: 100px;
+            border: 3px solid #73ad21;
+        }
+        div.fixed{
+            position: fixed;
+            top: 0;
+            right: 30px;
+            width: 300px;
+            border: 3px solid #73ad21;
+        }
+        div.static{
+            position: static;
+            left: 30px;
+            width: 100px;
+            border: 3px solid #73ad21;
+        }
+        h2{
+            opacity: 65%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Positions</h2>
+    <p>An element with position: relative; is positioned relative to its normal position.</p>
+    <div class="relative">
+        This div element has position: relative;
+    </div><br><br>
+    <div class="fixed">
+        This div element has position: fixed;
+    </div><br><br>
+    <div class="absolute">
+        This div element has position: absolute;
+    </div><br><br>
+    <div class="static">
+        This div element has position: static;
+    </div><br><br>
+</body>
+</html>

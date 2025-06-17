@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gold;
+    color: #e23e49;
+}
+
+h1{
+    color: purple;
+}
+
+/*Attribute Selector*/
+a{
+    color: #8b949e;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 200%;
+    font-weight: bold;
+    color: #1f6feb;
+}
+
+/*Child Selector*/
+ul>li{
+    font-weight: bold;
+}
+
+/*Sibling Selector*/
+h1+p{
+    <h1>Welcome to the world of Gaming</h1>
+    <ul>
+        <li >DLS 2025</li>
+        <li>Fifa 25</li>
+        <li>Brawlhalla</li>
+        <li>Marvel Snap</li>
+    </ul>
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* :hover Pseudo-class*/
+ul li:hover{
+    color: #4f8cc9;
+}
+
+/* :nth-child(n) Pseudo-class*/
+ul li:nth-child(2){
+    background-color: #21262d;
+}
+
+/* :not(selector) Pseudo-class*/
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+
+/*::first-letter Pseudo-element*/
+p::first-letter{
+    font-size: 500%;
+    color: #21262d;
+}

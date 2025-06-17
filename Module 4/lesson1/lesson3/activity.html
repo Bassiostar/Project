@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container" class="carousal slide" data-ride="carousal">
+        <!--Indicators-->
+        <ol class="carousal-indicators">
+            <li class="active" data-target="mycarousal" data-slide-to="0"></li>
+            <li data-target="mycarousal" data-slide-to="1"></li>
+            <li data-target="mycarousal" data-slide-to="2"></li>
+        </ol>
+        <!--Wrapper for slides-->
+        <div class="carousal-inner">
+            <div class="item" class="active">
+                <img src="download.jpeg" alt="test" height="200px" width="100px">
+            </div>
+            <div class="item">
+                <img src="download.jpeg" alt="test" height="200px" width="100px">
+            </div>
+            <div class="item">
+                <img src="download.jpeg" alt="test" height="200px" width="100px">
+            </div>
+        </div>
+        <!--Left and Right controls-->
+        <a class="right carousal-control" href="#mycarousal" data-slide="prev">   
+        <span class="glyphicon glyphicon-chevron"></span>
+        <span class="sr-only">Next</span>
+        </a>
+
+        <a class="right carousal-control" href="#mycarousal" data-slide="prev">   
+            <span class="glyphicon glyphicon-chevron"></span>
+            <span class="sr-only">Next</span>
+    </div>
+</body>
+</html>

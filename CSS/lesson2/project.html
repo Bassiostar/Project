@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+            background-image:url(../../Dorithy.jpeg);
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            background-attachment: fixed;
+            width: 500px;
+            height: 1000px;
+        }
+        #grad1{
+            height: 400px;
+            background-color: red;/* For browsers that do not support gradients */
+            background-image: linear-gradient(to top right, red, orange, yellow, green, blue, indigo, violet);
+         }
+         #grad2{
+            height: 400px;
+            background-color: red;/* For browsers that do not support gradients */
+            background-image: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
+         }
+    </style>
+</head>
+<body>
+    <div id="grad1" style="text-align: center; margin: auto; color: #888888;font-size: 40px; font-weight: bold;">
+        Welcome to Codingal
+    </div>
+    <div id="grad2"></div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header{
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav{
+            background: #4a5c6d;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            margin: 20px;
+        }
+        aside {
+            width: 25%;
+            padding: 20px;
+            background: #d1d1d1;
+            margin-right: 20px;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            background: #ffffff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+   <header><h1>My Website</h1></header>
+   <nav>
+    <a href="#">Header</a>
+    <a href="#">Navigation</a>
+    <a href="#">Sidebar</a>
+    <a href="#">Content</a>
+    <a href="#">Footer</a>
+   </nav>
+   <div class="container">
+    <aside>
+        <h3>Sidebar</h3>
+        <p>This is the sidebar section where you  can add links or additional</p>
+    </aside>
+    <main>
+        <h2>Main Content Area</h2>
+        <img src="Outdoor.jpg" alt="Los Angeles">
+        <p>This is where the main content of the webpage goes.You can add text, images, and other elements here.</p>
+    </main>
+   </div>
+   <footer>
+    <p>&copy; 2025 Bassio All Rights Reserved</p>
+   </footer>
+</body>
+</html>
